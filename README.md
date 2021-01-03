@@ -21,7 +21,8 @@
    # 当前目录 ./
    # 此命令已集成到当前目录下package.json的脚本中
    # 注意：请不要在命令行，除非你彻底理解了此脚本的含义
-   $ xl_close_port -p 3251 && verdaccio -l 3251 -c ./config/config.yaml
+   # 如果端口号被占用请修改端口号
+   $ verdaccio -l 3251 -c ./config/config.yaml
     ```
 
 3. 打开 libs 中的 project 并在当前目录打开命令行，执行 yarn 引入依赖
