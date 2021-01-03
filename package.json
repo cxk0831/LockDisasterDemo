@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "verdaccio": "verdaccio -l 3251 -c ./config/config.yaml"
+    "start-dev": "xl_close_port -p 3251 && verdaccio -l 3251 -c ./config/config.yaml"
   },
   "dependencies": {
-    "verdaccio": "4.10.0"
+    "verdaccio": "4.10.0",
+    "xl_close_port": "^1.0.1"
   },
   "name": "lockdisasterdemo",
   "description": "此 DEMO 用于模拟没有 lock 导致的灾难",
