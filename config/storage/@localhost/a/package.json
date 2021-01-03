@@ -1,0 +1,48 @@
+{
+	"name": "@localhost/a",
+	"versions": {
+		"1.0.0": {
+			"name": "@localhost/a",
+			"version": "1.0.0",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"dependencies": {
+				"@localhost/b": "^1.0.0"
+			},
+			"_id": "@localhost/a@1.0.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-9b0wBYVCnB0kAz3nxC0CgM1mFV9fTStkHgQA19LwGIjXvICAk3IzTOAtke+1uSKKbApBusmFnZUwzl6Lw6Cbxw==",
+				"shasum": "66e59c56a0441b308675a25335d47b971196047b",
+				"tarball": "http://localhost:3251/@localhost/a/-/@localhost/a-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-01-03T10:41:59.869Z",
+		"created": "2021-01-03T10:41:59.869Z",
+		"1.0.0": "2021-01-03T10:41:59.869Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"a-1.0.0.tgz": {
+			"shasum": "66e59c56a0441b308675a25335d47b971196047b",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-ce8b4d87523df0d7",
+	"_id": "@localhost/a",
+	"readme": "ERROR: No README data found!"
+}
